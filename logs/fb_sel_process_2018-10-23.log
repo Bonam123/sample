@@ -1,6 +1,0 @@
-2018-10-23 15:01:42,638 - fb_sel.py - 37 - close_driver - DEBUG - Traceback (most recent call last):
-  File "fb_sel.py", line 34, in close_driver
-    display.stop()
-AttributeError: 'WebDriver' object has no attribute 'stop'
-
-2018-10-23 15:01:42,639 - fb_sel.py - 38 - close_driver - DEBUG - Exception while closing driver.
