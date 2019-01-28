@@ -1,0 +1,12 @@
+CREATE DATABASE `ENIGMA_DB` /*!40100 DEFAULT CHARACTER SET latin1 */
+CREATE TABLE `thread_data` (
+  `cat_title` varchar(150) COLLATE utf8mb4_bin DEFAULT NULL,
+  `url` varchar(150) COLLATE utf8mb4_bin NOT NULL DEFAULT '',
+  `title` varchar(150) COLLATE utf8mb4_bin DEFAULT NULL,
+  `detection_count` varchar(150) COLLATE utf8mb4_bin DEFAULT NULL,
+  `threat_level_count` varchar(150) COLLATE utf8mb4_bin DEFAULT NULL,
+  `date_` varchar(150) COLLATE utf8mb4_bin DEFAULT NULL,
+  `reference_url` text CHARACTER SET utf8 COLLATE utf8_unicode_ci,
+  PRIMARY KEY (`url`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+
